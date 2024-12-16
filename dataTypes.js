@@ -30,3 +30,6 @@ console.log(typeof null); // Output: object
 // undefined is converted to NaN when treated as a number - +undefined
 
 // JavaScript automatically assigns undefined, but null is explicitly set by the developer
+
+
+
