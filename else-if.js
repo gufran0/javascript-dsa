@@ -7,13 +7,14 @@ if (userName && userAge >= 18 && userAge <= 29) {
   console.log("User entered an empty name.");
 } else if (userAge < 18) {
   console.log("User is under 18.");
-} else if (userAge > 29) {
-  console.log("User is over 29.");
-} else if (userAge === 23) {
-  console.log("User entered an invalid age, defaulted to 23.");
-}else {
+} else {
+  if (userAge > 29) {
+    console.log("User is over 29.");
+  } else if (userAge === 23) {
+    console.log("User entered an invalid age, defaulted to 23.");
+  } else {
     console.log("heheh");
-    
+  }
 }
 
 if (userName) {
@@ -24,8 +25,7 @@ if (userName) {
   console.log("User entered an empty name.");
 } else if (userAge === 23) {
   console.log("User entered an invalid age, defaulted to 23.");
-} 
+}
 
 // else if - if it finds any of the code to be true ! condition stop
 // else - default
-
