@@ -94,6 +94,7 @@ switch (true) {
 }
 
 // Use a switch statement to determine the message based on the grade
+// it strictly checks values 
 switch (grade) {
   case "A":
     // If grade is "A", log "you got good numbers"
