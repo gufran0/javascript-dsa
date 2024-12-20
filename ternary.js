@@ -12,4 +12,4 @@ const userGender = `${gender === "f" ? "she" : "he"} is a college student`;
 // Chaining ternary operators
 // The first condition (0) is false, so it evaluates the second ternary operator
 // The second condition ("JANE") is truthy, so it assigns "12" to result
-const result = 0 ? 'JOHN' : "JANE" ? "12" : 2;
+const result = 0 ? "JOHN" : "JANE" ? "12" : 2;

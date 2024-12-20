@@ -14,7 +14,7 @@ Boolean(true);
 
 // 0 | nan | null | undefined
 
-!0 
+!0;
 // changes the value
-!!0 
+!!0;
 // chnages it back to what it is
