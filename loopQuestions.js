@@ -22,7 +22,7 @@ let q = 4;
 
 for (let row = 1; row <= q; row++) {
   let str = "";
-  let spaces = q-row;
+  let spaces = q - row;
   for (let col = 1; col <= spaces; col++) {
     str += " ";
   }
